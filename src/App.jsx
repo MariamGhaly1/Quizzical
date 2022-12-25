@@ -1,6 +1,6 @@
 import React from 'react'
-import StartPage from "./StartPage"
-import QuizPage from "./QuizPage"
+import StartPage from "./pages/StartPage"
+import QuizPage from "./pages/QuizPage"
 import './App.css'
 
 function App() {

@@ -1,7 +1,7 @@
 import React from "react"
 import {nanoid} from "nanoid"
 
-import ChoiceBtn from "./ChoiceBtn"
+import ChoiceBtn from "../components/ChoiceBtn"
 
 export default function QuizPage(props){
     
