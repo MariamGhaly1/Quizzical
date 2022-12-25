@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+      margin: 0px;
+}
+
+hr{
+  border: 0.794239px solid #DBDEF0;
+}
+
+.karla-font{
+  font-family: 'Karla';
+  font-weight: 700;
+  color: #293264;
+}
+
+.inter-btn{
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+.behind{
+   z-index:0;
+}
+
+.main-btn{
+  margin: 30px auto;
+  padding: 16px 30px;
+  color: #F5F7FB;
+  font-size: 16px;
+  line-height: 19px;
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  
+}
+
+
+/**********    StartPage    *********/
+
+
+.start-page{
+  width: 100vw;
+  position: relative;
+  height: 30rem;
+  background-color: #F5F7FB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-title{
+  margin: 7px ;
+  font-size: 31.25px;
+  line-height: 37px;
+  text-align: center;
+
+}
+
+.start-subtitle{
+  margin: 7px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #293264;
+
+
+}
+
+.start-btn{
+  margin: 30px auto;
+  padding: 16px 30px;
+  color: #F5F7FB;
+  font-size: 16px;
+  line-height: 19px;
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+}
+
+.right-blob{
+  position: absolute;
+  right:0px;
+  top:0px;
+
+}
+
+.left-blob{
+  position: absolute;
+  left:0px;
+  bottom:0px;
+  }
+
+/***** QuizPage*****/
+
+.quiz-page{
+  background-color: #F5F7FB;
+  padding: 37px 30px;
+  width: 100vw;
+  height: 100vw;
+}
+
+.question{
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 16px;
+  color: #293264;
+  margin: 14px 0px;
+}
+
+.choices{
+  margin: 14px 0px;
+}
+
+
+.result-section--text{
+  color:#293264;
+  padding: 0 20px;
+}
+
+
